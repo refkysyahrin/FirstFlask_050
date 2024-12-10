@@ -1,0 +1,34 @@
+/* halamandata.css */
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(to bottom right, #a55474, #e4958e, #f0cab7);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #edd1ce;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+  text-align: left; /* Mengatur teks rata kiri */
+}
+
+h1 {
+  font-size: 28px;
+  color: #000000;
+  margin-bottom: 20px;
+  text-align: center; /* Tetap rata tengah untuk judul */
+}
+
+p {
+  font-size: 18px;
+  color: #000000;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Data Mahasiswa</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='halamandata.css') }}"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Data Mahasiswa</h1>
+      <p><strong>NIM:</strong> {{ nim }}</p>
+      <p><strong>Nama:</strong> {{ nama }}</p>
+      <p><strong>Tempat Lahir:</strong> {{ tempat_lahir }}</p>
+      <p><strong>Tanggal Lahir:</strong> {{ tanggal_lahir }}</p>
+      <p><strong>Program Studi:</strong> {{ program_studi }}</p>
+      <p><strong>Alamat:</strong> {{ alamat }}</p>
+      <p><strong>Nomor Telepon:</strong> {{ nomor_telepon }}</p>
+      <p><strong>Email:</strong> {{ email }}</p>
+    </div>
+  </body>
+</html>
